@@ -1,0 +1,17 @@
+import { StrictMode } from 'react'
+import { createRoot } from 'react-dom/client'
+import { Provider } from 'react-redux'
+import store from './redux/store.js'
+import './services/styles/index.css'
+import CheckLoginStatus from './services/utils/checkLoginStatus.js'
+import App from './App.jsx'
+
+
+createRoot(document.getElementById('root')).render(
+  <StrictMode>
+    <Provider store={store}>
+      <CheckLoginStatus/>
+      <App />
+    </Provider>
+  </StrictMode>,
+)
