@@ -25,7 +25,7 @@ const UnautorizedLayout = () => {
             </div>
             <div className="w-5/12 h-screen flex justify-end">
                 <img
-                    src="../../public/unautorizedWelcome.png"
+                    src="/unautorizedWelcome.png"
                     alt=""
                     className="w-auto h-full object-contain"
                 />

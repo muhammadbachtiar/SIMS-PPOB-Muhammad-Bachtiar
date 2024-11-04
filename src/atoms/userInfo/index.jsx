@@ -9,7 +9,7 @@ const UserInfo = () => {
               src={
               hasUserInfo && userInfo.profile_image && userInfo.profile_image !== "https://minio.nutech-integrasi.com/take-home-test/null"
                 ? userInfo.profile_image
-                : "../../../public/ProfileDefault.png"
+                : "/ProfileDefault.png"
             } alt="Profile Photo">
             </img>
         </div>

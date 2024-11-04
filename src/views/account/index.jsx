@@ -152,7 +152,7 @@ return (
        <div className="my-2 relative">
            <form onSubmit={handleSubmitPhoto(onSubmitPhoto)}>
             <label htmlFor="upload-photo" className="cursor-pointer">
-                <img className="w-28 h-28 rounded-full" src={preview || infoUser.profile_image || "../../../public/ProfileDefault.png"} alt="Profile Photo"></img>
+                <img className="w-28 h-28 rounded-full" src={preview || infoUser.profile_image || "/ProfileDefault.png"} alt="Profile Photo"></img>
                 <div className="relative">
                 <input
                     id="upload-photo"
